@@ -1,7 +1,6 @@
 import Dashboard from "./views/Dashboard.js";
-import Posts from "./views/Posts.js";
-import PostView from "./views/PostView.js";
-import Settings from "./views/Settings.js";
+import Recipes from "./views/Recipes.js";
+import Supplies from "./views/Supplies.js";
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
@@ -23,13 +22,12 @@ const navigateTo = url => {
 
 // async: Load stuff while FE is still loading
 const router = async () => {
-    // console.log(pathToRegex("/posts/:id"));
+    // console.log(pathToRegex("/recipes/:id"));
     const routes = [
         // Using class reference
         { path: "/", view: Dashboard },
-        { path: "/posts", view: Posts },
-        { path: "/posts/:id", view: PostView },
-        { path: "/settings", view: Settings }
+        { path: "/recipes", view: Recipes },
+        { path: "/supplies", view: Supplies }
     ];
 
     // Test each route for potential match 
