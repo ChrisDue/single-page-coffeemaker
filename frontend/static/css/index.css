@@ -48,6 +48,13 @@ p {outline-color:#c06525;}
 
     .dotted {outline-style: dotted;}
     .dashed {outline-style: dashed;}
+    .solid {outline-style: solid;}
+    .double {outline-style: double;}
+    .groove {outline-style: groove;}
+    .ridge {outline-style: ridge;}
+    .inset {outline-style: inset;}
+    .outset {outline-style: outset;}
+
 /* - */
 
 #app {
