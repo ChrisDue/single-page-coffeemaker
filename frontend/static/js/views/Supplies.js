@@ -8,20 +8,20 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-        <h1>Recipes</h1>
+        <h1>Supplies</h1>
         <p>
-            You are viewing all the available recipes.
+            You are viewing all the available supplies.
         </p>
         <p class="solid">
-            Grounded Coffee:<br>
+            Grounded Coffee: 500g<br>
             <button class="button button1">Refill Grounded Coffee</button>
         </p>
         <p class="solid">
-            Water:<br>
+            Water: 3 Liters<br>
             <button class="button button1">Refill Water</button>
         </p>
         <p class="solid">
-            Milk:<br>
+            Milk: 2 Liters<br>
             <button class="button button1">Refill Milk</button>
         </p>
         `;
