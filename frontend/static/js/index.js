@@ -2,6 +2,11 @@ import Dashboard from "./views/Dashboard.js";
 import Recipes from "./views/Recipes.js";
 import Supplies from "./views/Supplies.js";
 
+// const Datastore = require("nedb");
+
+// const database = new Datastore('database.db');
+// database.loadDatabase();
+
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
 const getParams = match => {

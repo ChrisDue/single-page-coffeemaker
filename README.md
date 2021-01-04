@@ -9,8 +9,13 @@ If not: It might need some packages I didn't list here yet, then sorry.
 <br/>
 
 # Sources
-## single-page-app-vanilla-js_part-1
-Following the Tutorial Video Nr.1 https://www.youtube.com/watch?v=6BozpmSjk-Y , similar to @dcode-youtube's repo https://github.com/dcode-youtube/single-page-app-vanilla-js
+## single-page-app-vanilla-js
+- Created by following along the tutorial video nr.1 https://www.youtube.com/watch?v=6BozpmSjk-Y  
+- ... and video nr.2 https://www.youtube.com/watch?v=OstALBk-jTc  
+- @dcode-youtube's repo https://github.com/dcode-youtube/single-page-app-vanilla-js  
+- Using express without further explanation.  
 
-## single-page-app-vanilla-js_part-2
-Following the Tutorial Video Nr.2 https://www.youtube.com/watch?v=OstALBk-jTc .
+## 2.3 HTTP Post Request mit fetch() - Arbeiten mit Daten und APIs in JavaScript
+- https://www.youtube.com/watch?v=Kw5tC5nQMRY
+- using NeDB
+- also introducing nodemod (TODO try)

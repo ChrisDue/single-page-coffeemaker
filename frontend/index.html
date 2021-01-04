@@ -15,6 +15,17 @@
         <a href="/supplies" class="nav__link" data-link>Supplies</a>
     </nav>
     <div id="app"></div>
+    <script>
+        const data = { key: "1", val: "2" };
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        }
+        fetch('/api', options);
+    </script>
     <script type="module" src="/static/js/index.js"></script>
 </body>
 
