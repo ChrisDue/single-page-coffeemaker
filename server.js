@@ -10,16 +10,18 @@ app.get("/*", (req, res) => {
     res.sendFile(path.resolve("frontend", "index.html"));
 })
 // Set port to run on
-app.listen(process.env.PORT || 8080, () => console.log("Server running, nice..."));
+const port = 8080;
+app.listen(process.env.PORT || port, () => console.log("Server running on " + port + ", nice..."));
 
 // API settings
 app.use(express.json({ limit: '1mb' }));
+// API Test triggern
 app.post('/api', (request, response) => {
-    console.log("I got a request!");
+    console.log("Server: I got a request!");
     console.log(request.body);
     const data = request.body;
     response.json({
-        status: 'success',
-        message: 'Erm, hi?'
+        message: 'HeLlOoO',
+        status: 'SuCcEsS'
     });
 });

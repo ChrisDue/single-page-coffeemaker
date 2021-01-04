@@ -15,6 +15,7 @@
         <a href="/supplies" class="nav__link" data-link>Supplies</a>
     </nav>
     <div id="app"></div>
+    <!-- HTML-Client sends request to JS-Server -->
     <script>
         const data = { key: "1", val: "2" };
         const options = {
@@ -23,8 +24,12 @@
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(data)
-        }
-        fetch('/api', options);
+        };
+        // Fetch comes back as Datastream, get more readable json
+        const response = fetch('/api', options).then(response => {
+            console.log(response);
+            console.log(response.json());
+        });
     </script>
     <script type="module" src="/static/js/index.js"></script>
 </body>
