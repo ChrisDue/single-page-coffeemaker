@@ -1,3 +1,5 @@
+This was my first attempt before noticing that naked JS is not for me and Angular feels way cleaner 😌
+
 # Setup
 Should run after running "node server.js" from the main directory.  
 
